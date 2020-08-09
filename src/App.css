@@ -6,6 +6,68 @@
   height: 40vmin;
   pointer-events: none;
 }
+.winner{
+  font-size: 52px;
+}
+#minebox{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+}
+#safebox{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  color: blue;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+#revealed{
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  color: pink;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.change{
+  height: 40px;
+  width: 54px;
+  border: 2px solid black;
+  color: white;
+  background-color: blue;
+}
+.flag{
+  background-color:transparent;
+  color: red;
+  font-size: 25px;
+  align-self: flex-end;
+  padding-right: 40%;
+  padding-bottom: 20%;
+}
+.blue{
+  background-color: blue;
+}
+.white{
+  background-color: white;
+}
+
+#row{
+display: flex;
+flex-direction: row;
+}
+#column{
+  display: flex;
+  flex-direction: row;
+}
+#grid{
+  display: flex;
+  flex-direction: column;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
